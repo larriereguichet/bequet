@@ -1,0 +1,24 @@
+{
+  "name": "Bequet",
+  "version": "1.0",
+  "description": "Shows a page action for urls which have the letter 'g' in them.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_popup": "popup.html",
+    "default_icon" : "icon-19.png",
+    "default_title" : "There's a 'G' in this URL!"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
