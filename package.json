@@ -1,0 +1,23 @@
+{
+  "name": "bequet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larriereguichet/bequet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larriereguichet/bequet/issues"
+  },
+  "homepage": "https://github.com/larriereguichet/bequet#readme",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}

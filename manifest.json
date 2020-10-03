@@ -9,16 +9,15 @@
   "page_action" :
   {
     "default_popup": "popup.html",
-    "default_icon" : "icon-19.png",
-    "default_title" : "There's a 'G' in this URL!"
+    "default_icon" : "logo_grey.png",
+    "default_title" : "Bequet"
   },
   "permissions" : [
     "declarativeContent",
     "activeTab"
   ],
   "icons" : {
-    "48" : "icon-48.png",
-    "128" : "icon-128.png"
+    "128" : "logo_grey.png"
   },
   "manifest_version": 2
 }
